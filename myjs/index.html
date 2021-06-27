@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<title>Calculator</title>
+<html>
+    <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+ <body>
+      <div class="maindiv">
+      <span id="rate_val">
+          10.25%
+         <select id="years">
+            <option value="10">1</option>
+            <input type="range"  id="rate" min="1" max="20" value="10.25">
+         </select> 
+     </span>
+
+         <h1>Simple Interest Calculator</h1>
+
+        Amount <input type="number"  id="principal">  <br/>
+        Rate <input type="number"  id="rate">  <br/>
+        No. of Years <input type="number"  id="years">  <br/>
+        Interest : <span id="result"></span><br>
+
+        <button onclick="compute()">Compute Interest</button>
+        <span id="result">
+
+        </span> 
+      </div>
+      <footer>
+
+        &#169; This Calculator belongs to --Thabo Dlamini--
+
+
+      </footer>
+ </body>
+
+</html>
