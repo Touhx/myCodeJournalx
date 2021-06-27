@@ -1,0 +1,2 @@
+# myCodeJournalx
+Learning Code 
